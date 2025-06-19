@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+}
+.sidediv{
+    position:fixed;
+    left:0;
+    width: 15%;
+    box-sizing: border-box;
+    height: 100%;
+    background-color:deepskyblue;
+    padding: 10px;
+}
+.sidediv a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+nav li:hover{
+    background-color: #ffffff;
+}
+.contentdiv{
+    margin-left: 13%;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-image: url(image/name.png);
+}
+.contentdiv h1{
+    text-align: center;
+}
+.jikosyoukai{
+    display: flex;
+}
+.jikosyoukai img{
+    height: 400px;
+    margin-right: 5%;
+    margin-left: 15%;
+}
+.jikosyoukai table{
+    font-size: 20px;
+    text-align: center;
+}
+hr{
+    width: 100%;
+    border: solid 3px;
+}
+/* 趣味ｈｔｍｌ */
+.contentdiv2{
+    margin-left: 15%;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.syumi{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    display:flex;
+}
+.syumi img{
+    height: 400px;
+    padding: 10px;
+}
+.syumi2{
+    background-color: peru;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.syumi2 img{
+    height: 400px;
+    padding: 10px
+}
+/* ほしいものｈｔｍｌ */
+.contentdiv3{
+    margin-left: 15%;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 3px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hosimono{
+    background-color: khaki;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    box-sizing: border-box;
+}
+.hosimono img{
+    height: 250px;
+}
+.hosimono a{
+    text-decoration: none;
+    color: black;
+}
+.hosimono:hover{
+    box-shadow: 0px 0px 10px rgb(55, 241, 4);
+}
+h2{
+    margin-top: 0;
+    margin-left: 16%;
+}
+/* 音楽 */
+.contentdiv4{
+    margin-left: 15%;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 3px 20px 20px 20px;
+    text-align: center;
+}
+.vaundy{
+    background-color: darkorange;
+    border-radius: 10px;
+    padding:20px;
+    margin-top: 10px;
+}
+.vaundy img{
+    height: 400px;
+}
+.vaundy iframe{
+    height:400px;
+    width: 60%;
+}
+/* 出身 */
+.contentdiv5{
+    margin-left: 15%;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 3px 20px 20px 20px;
+    text-align: center;
+}
+.kurume{
+    background-color:darkseagreen;
+    border-radius: 10px;
+    padding:20px;
+    margin-top: 10px;
+}
+.kurume img{
+    height: 500px;
+    width: 80%;
+    border-radius: 10px;
+}
