@@ -153,3 +153,8 @@ h2{
     width: 80%;
     border-radius: 10px;
 }
+/* kuuhaku */
+.contentdiv5 img{
+    min-height: 400px;
+    margin-left: 18%;
+}
